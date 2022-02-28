@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+
+/* ------------------------------FOOTER------------------------ */
+
+footer{
+    background-color: #DDDDDD;
+    padding-top: 3vh;
+  }
+  .footer-desc{
+    display: flex;
+    padding: 10px 150px;
+    margin-bottom: 20px;
+  }
+  .footer-desc .ftr-desc1{
+    flex-basis: 40%;
+    margin-right: 50px;
+  }
+  .footer-desc .ftr-desc1 .ftr-heading{
+    display: flex;
+    margin-top: 100px;
+  }
+  .footer-desc .ftr-desc1 .ftr-heading span:nth-child(2){
+    position: relative;
+    top: 20px;
+    margin-left: 5px;
+  }
+  .footer-desc .ftr-desc1 input{
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0pc 20px;
+    font-size: 0.9rem;
+  }
+  .footer-desc .ftr-desc1 input:focus{
+    box-shadow: 0px 0px 10px #CC0000;
+  }
+  .footer-desc .ftr-desc1 .subs-btn{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1rem;
+    height: 40px;
+    background-color: #CC0000;
+    border: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  .footer-desc .ftr-desc2{
+    flex-basis: 30%;
+    padding-left: 0px;
+  }
+  .footer-desc .ftr-desc2 h2, .footer-desc .ftr-desc1 h2{
+    color: #2561AA;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+  }
+  .footer-desc .ftr-desc2 a, p{
+    text-decoration: none;
+    font-size: 0.8rem;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    padding: 5px 0px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .footer-desc .infotext{
+    font-size: 0.8rem;
+  }
+  .footer-desc .ftr-desc2 i{
+    font-size: 1.5rem;
+    display: inline-block;
+    color: grey;
+  }
+  
+  .footer-desc .socialmenus{
+    display: flex;
+  }
+  .footer-desc .socialmenus a img{
+    width: 30px;
+    margin: 5px;
+  }
+  .footer-desc .ftr-desc2 a:hover{
+    text-decoration: underline;
+  }
+  .ftr-bottom{
+    background-color: #2561AA;
+    padding: 15px;
+  }
+  .ftr-bottom .copytext{
+    text-align: center;
+    font-size: 0.8rem;
+    color: #91C0FA;
+  }
+  .ftr-bottom .copytext a{
+    color: white;
+    text-decoration: none;
+  }
+  .ftr-bottom .copytext a:hover{
+    text-decoration: underline;
+  }
+  .ftr-bottom p span a{
+    display: inline-block;
+  }
+
+
+  @media only screen and (max-width: 768px){
+    .footer-desc{
+      flex-direction: column;
+      padding: 10px 20px;
+    }
+  }
